@@ -1,0 +1,4 @@
+* @mt2h
+*.js @mt2h
+*.yml @mt2h
+/public/ @mt2h
