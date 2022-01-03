@@ -38,4 +38,20 @@ npm run format:check
 ## Surge
 ![Surge](./img/surge.png)
 
- 
+## Pipeline required on Develop Branch
+
+![Pipeline_Requred_on_Branch](./img/add_pipeline_to_required.png)
+
+## Add colaborator
+
+add colaborator
+
+![Add Colaborator](./img/colaborator1.png)
+
+sent invited
+
+![Added Colaborator](./img/colaborator2.png)
+
+accept invited
+
+![Accept invited](./img/colaborator3.png)
