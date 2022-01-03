@@ -1,22 +1,12 @@
-name: CI
-on:
-  #pull_request:
-  #  branches: [develop]
-  push:
-    branches:
-      - master
-
+name: Shell Commands
+on: [push]
 jobs:
-  build:
+  run-shell-command:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - name: Use NodeJS
-        uses: actions/setup-node@v1
-        with:
-          node-version: "12.x"
-      - run: npm ci
-      - run: npm run format:check
-      #- run: npm test -- --coverage
-      #  env:
-      #    CI: true
+      - name: echo a string
+        run: echo "Hello World"
+      - name: multiline script
+        run: |
+          node -v
+          npm -v
