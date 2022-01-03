@@ -14,7 +14,8 @@ jobs:
           node-version: "12.x"
       - run: npm install node-pre-gyp
       - run: npm ci
-      - run: npm run format:check
+      #- run: npm run format:check
+      - run: npx prettier --write "**/*.{js,jsx.yml,yaml,.json.css,scss,md
       - run: npm test -- --coverage
         env:
           CI: true
