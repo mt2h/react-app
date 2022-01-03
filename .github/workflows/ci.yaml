@@ -13,9 +13,9 @@ jobs:
         with:
           node-version: "12.x"
       - run: npm install node-pre-gyp
+      - run: rm -rf ./node_modules && rm ./package-lock.json
       - run: npm ci
-      #- run: npm run format:check
-      - run: npx prettier --write "**/*.{js,jsx.yml,yaml,.json.css,scss,md
-      - run: npm test -- --coverage
-        env:
-          CI: true
+      - run: npm run format:check
+      #- run: npm test -- --coverage
+      #  env:
+      #    CI: true
