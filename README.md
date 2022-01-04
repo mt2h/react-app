@@ -42,3 +42,9 @@ prettier --write .
 ## Surge
 
 ![Surge](./img/surge.png)
+
+## Branch protected
+
+![Branch protected](./img/branch_protection_rule_1.png)
+
+![Branch protected](./img/branch_protection_rule_2.png)
