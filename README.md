@@ -33,10 +33,19 @@ npx prettier --check "**/*.js"
 
 npx prettier --write "**/*.{js,jsx.yml,yaml,.json.css,scss,md}"
 npm run format:check
+```
 
+## Prepare build react app
+
+```bash
+#prepared
 sudo npm i -g prettier
 prettier --check .
 prettier --write .
+
+#get data surge
+surge token
+surge whoami
 ```
 
 ## Surge
