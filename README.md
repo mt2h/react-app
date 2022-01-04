@@ -33,6 +33,10 @@ npx prettier --check "**/*.js"
 
 npx prettier --write "**/*.{js,jsx.yml,yaml,.json.css,scss,md}"
 npm run format:check
+
+sudo npm i -g prettier
+prettier --check .
+prettier --write .
 ```
 
 ## Surge
