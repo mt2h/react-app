@@ -1,6 +1,6 @@
 # GitHub Actions
 
-This project is the continuation of https://github.com/mt2h/github-actions-test of course Github Actions
+This project is the continuation of https://github.com/mt2h/github-actions-course of course Github Actions
 
 ## Local testing react app
 
