@@ -51,7 +51,8 @@ surge whoami
 ## Semantic
 
 ```bash
-npm install --save-dev semantic-release
+#npm install --save-dev semantic-release
+npm install --save-dev 'semantic-release@^16.0.3'
 git commit -m "fix: fix description"
 npx semantic-release
 ```
