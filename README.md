@@ -1,6 +1,6 @@
 # GitHub Actions
 
-This project is the continuation of https://github.com/mt2h/github-actions-test of course Github Actions
+This project is the continuation of https://github.com/mt2h/github-actions-course of course Github Actions
 
 ## Local testing react app
 
@@ -46,6 +46,14 @@ prettier --write .
 #get data surge
 surge token
 surge whoami
+```
+
+## Semantic
+
+```bash
+npm install --save-dev semantic-release
+git commit -m "fix: fix description"
+npx semantic-release
 ```
 
 ## Surge
