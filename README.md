@@ -52,6 +52,8 @@ surge whoami
 
 ```bash
 npm install --save-dev semantic-release
+git commit -m "fix: fix description"
+npx semantic-release
 ```
 
 ## Surge
