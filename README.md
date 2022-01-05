@@ -48,6 +48,12 @@ surge token
 surge whoami
 ```
 
+## Semantic
+
+```bash
+npm install --save-dev semantic-release
+```
+
 ## Surge
 
 ![Surge](./img/surge.png)
