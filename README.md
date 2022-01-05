@@ -1,6 +1,6 @@
 # GitHub Actions
 
-This project is the continuation of https://github.com/mt2h/github-actions-test of course Github Actions
+This project is the continuation of https://github.com/mt2h/github-actions-course of course Github Actions
 
 ## Local testing react app
 
@@ -35,5 +35,33 @@ npx prettier --write "**/*.{js,jsx.yml,yaml,.json.css,scss,md}"
 npm run format:check
 ```
 
+## Prepare build react app
+
+```bash
+#prepared
+sudo npm i -g prettier
+prettier --check .
+prettier --write .
+
+#get data surge
+surge token
+surge whoami
+```
+
+## Semantic
+
+```bash
+npm install --save-dev semantic-release
+git commit -m "fix: fix description"
+npx semantic-release
+```
+
 ## Surge
+
 ![Surge](./img/surge.png)
+
+## Branch protected
+
+![Branch protected](./img/branch_protection_rule_1.png)
+
+![Branch protected](./img/branch_protection_rule_2.png)
