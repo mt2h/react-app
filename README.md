@@ -66,6 +66,24 @@ npm install --save-dev 'husky@^4.2.5'
 
 ![Surge](./img/surge.png)
 
+## Slack
+
+https://api.slack.com/apps
+
+create new app
+
+![Create app in Slack](./img/create_app_slack_1.png)
+
+![Create app in Slack](./img/create_app_slack_2.png)
+
+![Create app in Slack](./img/create_app_slack_3.png)
+
+![Create app in Slack](./img/create_app_slack_4.png)
+
+## Token Github Actions
+
+![Token Github Actions](./img/token.png)
+
 ## Branch protected
 
 ![Branch protected](./img/branch_protection_rule_1.png)
