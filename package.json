@@ -42,8 +42,8 @@
     ]
   },
   "devDependencies": {
-    "@commitlint/cli": "^16.0.1",
-    "@commitlint/config-conventional": "^16.0.0",
+    "@commitlint/cli": "^8.3.6",
+    "@commitlint/config-conventional": "^8.3.6",
     "@zeit/ncc": "^0.21.0",
     "codecov": "^3.8.3",
     "cz-conventional-changelog": "^3.0.1",
