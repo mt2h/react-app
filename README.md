@@ -55,11 +55,34 @@ surge whoami
 npm install --save-dev 'semantic-release@^16.0.3'
 git commit -m "fix: fix description"
 npx semantic-release
+
+#npm install --save-dev @commitlint/config-conventional @commitlint/cli husky
+npm install --save-dev '@commitlint/config-conventional@^8.3.4'
+npm install --save-dev '@commitlint/cli@^8.3.5'
+npm install --save-dev 'husky@^4.2.5'
 ```
 
 ## Surge
 
 ![Surge](./img/surge.png)
+
+## Slack
+
+https://api.slack.com/apps
+
+create new app
+
+![Create app in Slack](./img/create_app_slack_1.png)
+
+![Create app in Slack](./img/create_app_slack_2.png)
+
+![Create app in Slack](./img/create_app_slack_3.png)
+
+![Create app in Slack](./img/create_app_slack_4.png)
+
+## Token Github Actions
+
+![Token Github Actions](./img/token.png)
 
 ## Branch protected
 
