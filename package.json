@@ -45,6 +45,7 @@
     "@commitlint/cli": "^16.0.1",
     "@commitlint/config-conventional": "^16.0.0",
     "@zeit/ncc": "^0.21.0",
+    "codecov": "^3.8.3",
     "cz-conventional-changelog": "^3.0.1",
     "husky": "^4.2.1",
     "prettier": "1.19.1",
