@@ -1,3 +1,6 @@
+![](https://github.com/mt2h/react-app/workflows/CI/badge.svg?branch=develop&event=push)
+
+
 # GitHub Actions
 
 This project is the continuation of https://github.com/mt2h/github-actions-course of course Github Actions
