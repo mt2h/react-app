@@ -65,6 +65,16 @@ npm install --save-dev '@commitlint/cli@^8.3.5'
 npm install --save-dev 'husky@^4.2.5'
 ```
 
+## Personal Actions
+
+```bash
+npm install @actions/github --save
+npm install @actions/core --save
+
+npm i -D '@zeit/ncc@^0.20.5'
+npx ncc build .github/actions/hello/index.js -o .github/actions/hello/dist
+```
+
 ## Surge
 
 ![Surge](./img/surge.png)
