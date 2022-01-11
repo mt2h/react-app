@@ -1,3 +1,5 @@
+![](https://github.com/mt2h/react-app/workflows/CI/badge.svg?branch=develop&event=push)
+
 # GitHub Actions
 
 This project is the continuation of https://github.com/mt2h/github-actions-course of course Github Actions
@@ -60,6 +62,16 @@ npx semantic-release
 npm install --save-dev '@commitlint/config-conventional@^8.3.4'
 npm install --save-dev '@commitlint/cli@^8.3.5'
 npm install --save-dev 'husky@^4.2.5'
+```
+
+## Personal Actions
+
+```bash
+npm install @actions/github --save
+npm install @actions/core --save
+
+npm i -D '@zeit/ncc@^0.20.5'
+npx ncc build .github/actions/hello/index.js -o .github/actions/hello/dist
 ```
 
 ## Surge
