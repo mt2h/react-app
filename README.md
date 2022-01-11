@@ -70,6 +70,7 @@ npm install --save-dev 'husky@^4.2.5'
 npm install @actions/github --save
 npm install @actions/core --save
 
+#compile action heello in a one file
 npm i -D '@zeit/ncc@^0.20.5'
 npx ncc build .github/actions/hello/index.js -o .github/actions/hello/dist
 ```
