@@ -20,5 +20,5 @@ jobs:
           assignees: |
             mt2h
             cri5thian
-        run: |
-          echo {{ steps.issue.outputs.issue }}
+      - run: |
+          echo ${{ steps.issue.outputs.issue }}
