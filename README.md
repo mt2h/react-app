@@ -73,6 +73,8 @@ npm install @actions/core --save
 #compile action heello in a one file
 npm i -D '@zeit/ncc@^0.20.5'
 npx ncc build .github/actions/hello/index.js -o .github/actions/hello/dist
+
+npx ncc build .github/actions/issue/index.js -o .github/actions/issue/dist
 ```
 
 ## Surge
@@ -102,3 +104,7 @@ create new app
 ![Branch protected](./img/branch_protection_rule_1.png)
 
 ![Branch protected](./img/branch_protection_rule_2.png)
+
+## Messages
+
+![Messages](./img/messages.png)
