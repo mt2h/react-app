@@ -14,6 +14,6 @@ echo "::group::Some expandable logs"
 echo 'some stuff'
 echo 'some stuff'
 echo 'some stuff'
-echo "::endgroup::"
+echo '::endgroup::'
 
 echo "::set-env name=HELLO::hello"
