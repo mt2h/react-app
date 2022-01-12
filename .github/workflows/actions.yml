@@ -22,3 +22,8 @@ jobs:
             cri5thian
       - run: |
           echo ${{ steps.issue.outputs.issue }}
+      - name: Send a Slack Message
+        uses: ./.github/actions/slack
+        with:
+          slack_webhook: ${{ secrets.SLACK_WEBHOOK }}
+          message: Hello Slack
